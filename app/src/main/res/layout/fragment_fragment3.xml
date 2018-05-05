@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tpo" android:background="@color/verylightgray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="16sp" android:id="@+id/whttxt1" android:textStyle="bold"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginRight="5sp" android:text="WHY UIET KUK"
+        android:layout_marginLeft="5sp" android:layout_marginTop="5sp"
+        android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"
+        android:textColor="#000000"/>
+    <WebView
+        android:id="@+id/wbtxtvw1" android:layout_below="@id/whttxt1"
+        android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp" android:layout_marginTop="5sp" android:layout_marginRight="5sp" />
+</RelativeLayout>
+
+

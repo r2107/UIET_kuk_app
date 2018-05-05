@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tpo" android:background="@color/verylightgray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="20sp" android:id="@+id/head1" android:textStyle="bold"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginRight="5sp" android:text="Contact Us"
+        android:layout_marginLeft="5sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:textSize="17sp" android:id="@+id/head"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginRight="5sp" android:text="Convener,Training and Placement"
+        android:layout_below="@+id/head1" android:layout_marginLeft="5sp"
+        android:textColor="#000000"  />
+    <TextView
+        android:textSize="17sp"
+        android:id="@+id/txtvw2"
+        android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:textColor="#000000"
+        android:layout_height="wrap_content" android:layout_marginLeft="5sp"
+        android:text="UIET" android:layout_below="@+id/head" />
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw3"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp" android:textColor="#000000"
+        android:text="Kurukshetra University," android:layout_below="@+id/txtvw2" />
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw4"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp"
+        android:text="Kurukshetra, HARYANA" android:layout_below="@+id/txtvw3"
+        android:textColor="#000000"/>
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw5"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp"
+        android:text="Contact:" android:layout_below="@+id/txtvw4"
+        android:textColor="#000000"/>
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw6"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp"
+        android:text="Mobile: 97299 99805" android:layout_below="@+id/txtvw5"
+        android:textColor="#000000"/>
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw7"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp" android:textColor="#000000"
+        android:text="Office : 01744-238967 (Direct)" android:layout_below="@+id/txtvw6" />
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw8"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp" android:textColor="#000000"
+        android:text="Email : tpouiet@kuk.ac.in" android:textColorLink="#000000"
+        android:autoLink="email" android:layout_below="@+id/txtvw7" />
+    <TextView
+        android:textSize="17sp"  android:id="@+id/txtvw9"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"  android:layout_marginRight="5sp" android:textColor="#000000"
+        android:text="Web: www.uietkuk.org" android:layout_below="@+id/txtvw8"
+        android:autoLink="web" android:textColorLink="#000000"/>
+</RelativeLayout>
+

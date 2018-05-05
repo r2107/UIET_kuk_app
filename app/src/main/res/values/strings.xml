@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">UIET</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">home</string>
+    <string name="career">CAREER</string>
+    <string name="our_insti">"OUR INSTITUTIONS"</string>
+    <string name="social_init">SOCIAL INITIATIVES</string>
+    <string name="gallery">GALLERY</string>
+    <string name="event_activity">EVENTS AND ACTIVITIES</string>
+    <string name="placement">PLACEMENTS</string>
+    <string name="exam_res">EXAMINATION AND RESULTS</string>
+    <string name="courses_">COURSES</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="admission_enq">ADMISSION ENQUIRY</string>
+    <string name="public_notice">PUBLIC NOTICE</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="schlr">"SCHOLARSHIP SCHEMES"</string>
+    <string name="online_fee">ONLINE FEE PAYMENT</string>
+    <string name="policies">POLICIES</string>
+    <string name="research_phd">"RESEARCH and Ph.D PROGRAMME"</string>
+    <string name="notice">NOTICES</string>
+    <string name="why_uietkuk">"University Institute of Engineering and Technology (UIET), Kurukshetra University, Kurukshetra is among the top 3 engineering colleges in the state of Haryana. Kurukshetra University, esta .blished in 1957 is one of the most coveted universities in India and topmost in Haryana. It has been accredited 'A' grade by NAAC. It has as many as 40 teaching departments including UIET.
+
+UIET was established in the year 2004 with an identity of university's campus college and is among one of the 40 departments of the university, thus having the status of university's own engineering college. Since its establishment there has been no looking back. With AICTE approval and an extensive education program, UIET stands at top among all the university colleges across Haryana and ranks third if all colleges of the state are considered. It is evidenced by the cut-off ranks of AIEEE rank holders and parent's perception in choosing UIET .
+
+Being situated inside the university campus, our institute and students enjoy every facility available to the whole university, be it academic wise or cultural wise. This includes central library with more than 2.5 lac books, fully air-conditioned auditorium with capacity of 2500, excellent sports infrastructure and the list is on.
+
+Apart from the academics students at UIET also indulge in organizing activities and come forward to attain leadership skills. 'Excellence Foundation' is one of the societies in UIET responsible for organizing saga of events in the campus like TAKNEEK , UIET TALENT FEST , EXCELSIOR , DIKSHATA , UIET SPORTS MEET , UIET ALUMNI MILLAP. EXCELSIOR was the recent activity held in April 2015 which was a national level techno-cultural festival with a mega-evening by 'BOMBAY ROCKERS'.
+
+Thus your visit at UIET will be worth a million and you will definitely find the right talent in here who can stand in every sphere of any industrial atmosphere."</string>
+    <string name="message_tpo">The Training and Placement Cell of our institution plays a vital role in counseling and guiding the students for their successful career. Placement which is a crucial interface between the stages of completion of academic program of the students and their entry into the suitable industry. In addition to campus placements, the Training and Placement Cell organizes Professional Development programs like mock interviews, group discussions, pre-placement talks, interactive sessions with industrial experts, case studies etc. and Personality Development programs covering communication skills, presentation skills, career planning etc. on a regular basis to enable the students to acquire the necessary traits to become saleable to industries.</string>
+    <string-array name="image_ids">
+
+        <item>@drawable/image_1</item>
+
+        <item>@drawable/image_2</item>
+
+        <item>@drawable/image_3</item>
+
+        <item>@drawable/image_4</item>
+
+        <item>@drawable/image_5</item>
+
+        <item>@drawable/image_6</item>
+
+        <item>@drawable/image_7</item>
+
+        <item>@drawable/image_8</item>
+
+        <item>@drawable/image_9</item>
+
+        <item>@drawable/image_10</item>
+
+        <item>@drawable/image_11</item>
+
+        <item>@drawable/image_12</item>
+
+        <item>@drawable/image_13</item>
+
+        <item>@drawable/image_14</item>
+
+        <item>@drawable/image_15</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_departments">departments</string>
+    <string name="electrical">Electrical Engg. Department :</string>
+
+    <string name="elec1">The Department of Electrical Engineering was established in the year 2004 to give the basic
+        knowledge of Electrical Technology to the students of all branches. To keep pace with the
+        current technological trends the department has introduced a credit based postgraduate programme
+        leading to M.Tech. in Electrical Engineering in the year 2011 with intake of 18 students.
+        To cater the need of experimentation, the department has well equipped laboratories in the area of
+        Electrical Machines, Power Systems, Control Systems, and Instrumentation. Emphasis is laid on computer
+        based assignments through Lab-view, Modeling and Simulation of various Electrical Systems. The sophisticated
+        equipments/machines in the laboratories enable the students to operate various machines
+        independently so as to acquire thorough knowledge and develop competence in their respective skills.
+</string>
+    <string name="cse1">Computer Science and Engg. Department :</string>
+
+    <string name="cse2">The Department of Computer Science and Engg. Department was established in the year 2004.
+        The department offers B.Tech. and M.Tech. degrees.
+The Department started with an intake of 60 in B.Tech. degree programme and 20 in M.Tech.
+        (Software Engg.). In view of the increasing importance of the Computer Engineering discipline,
+        the intake of the department was increased to 120 in 2007.
+To keep pace with the current technological trends, the Department has introduced a credit based
+        postgraduate programme leading to M.Tech. in Computer Engineering in the year 2009. Ever since its establishment,
+        the Department has always been on a high growth path and has experienced and dedicated faculty with a strong
+        commitment to engineering education. Our students are exposed to up-to-date equipment, technology and techniques.
+        We have well equipped laboratories with state-of-the-art facilities like Blade sever, servers, thin clients and
+        desktops (from IBM, HP,HCL etc.). Induction of new courses from time to time enables the students to keep abreast of
+        recent technological developments. Flexibility in curriculum is provided through Electives Seminars and Projects.
+</string>
+    <string name="ece1">
+        The Department of Electronics and Communication Engg.(ECE)was established in the year 2004.
+        The department admires technology Development through innovations and its exploitation for the benefit of human kinds.
+
+The ECE department at UIET is running B.Tech and M.Tech Programs in Electronics and Communication Engineering
+        with intake of 120 and 20 respectively. The department has more than 450 undergraduate and postgraduate students.
+
+It is equipped with the latest experimental and computational facilities for taking up
+        Research and Development and consultancy activities in various fields. Various workshops on
+        latest electronic design automation tools like Multisim, Orcad ,Xillinx ,Labview , pSpice, Matlab
+        to make students proficient in electronic design automation tools are being organized regularly .
+        The department is also running Govt. of India sponsored NPMOS program. Besides, the department is equipped with
+        electronics components worth more than Rs. 12.00 Lacs and under the active guidance of faculty members,
+        the students have also been working on various microcontroller, embedded system based electronics projects.</string>
+
+    <string name="ece2"> Graduates will acquire technical background in field of Electronics and Communication Engineering with a
+        motivation to be able to apply this knowledge in continuing education and research. (Continuation of Education and Research).
+
+Graduates will able to work professionally to make them fit for rapidly changing technological
+        environment of Electronics and Communication Engineering. (Professional Attitude)
+
+Graduates will able to attain the leadership capabilities to address the technical, economic and
+        ethical challenges in a responsive manner at different levels of their learning phases of life. (Leadership Practices)</string>
+
+    <string name="mech1">The B.Tech courses in Mechanical Engineering are broad based and integral
+        with emphasis on fundamental concepts to enable the students to become confident engineers capable
+        of solving wide range of problems encountered by them in the field.
+        The courses are planned to train the students both in theory and practical work in the following areas of
+        Mechanical Engg.: Machine Design, Stress Analysis. Theory of Machines, Measurements and Automatic Control,
+        Thermodynamics, Thermal Machines, Power Plant Engineering, Manufacturing Processes, Production Engineering,
+        Industrial Engineering.
+        The students are given normal workshop training to familiarize them with the working of machine tools found in industry.
+        They are also given project problems covering design, fabrication, testing, manufacturing aspects thus giving
+        them opportunities to develop their capabilities to solve practical problems through the use of computers.</string>
+
+    <string name="mech2"> To enhance the knowledge and skills of the students in the field of Mechanical Engineering
+        To pursue research and development in Mechanical Engineering and other areas of Science and Technology.
+        To motivate the students about use of modern tools, machines, instruments and software’s for lifelong learning.
+        To create awareness among the students about society, team work and professional ethics.
+                             </string>
+    <string name="appscience"></string>
+    <string name="bio1">U.I.E.T. is one of the pioneer institutes providing B.Tech. and M.Tech. in Biotechnology.
+        The laboratories are well equipped with all the modern kits and instruments to provide
+        proper assistance to students. Most of the faculty members are Doctorates. Several national
+        level seminars and conferences on recent advances are organized by the University which are
+        attended by eminent scholars. Special executive meets are also organized which provide an insight
+        into the working of the company.</string>
+
+    <string name="bio2">To make a career in biotechnology by understanding the concepts of life science, basic sciences and
+        interconnected aspects of engineering sciences.
+
+To apply acquired practical skills and biotechnological technique in the field of research and entrepreneurship.
+
+To make an involvement in the field of biotechnology for improvement of product/process/technique for
+        emerging solutions in real life situation.
+            </string>
+    <string name="atglance1">The primary mission of the institute continues to be execution of basic and applied
+        research that advances the state of the profession, the education of the next generation of academic and industry
+        leaders, and the preparation of students for successful careers in professional practice.To advance its ultimate
+        mission of building the character and careers of students, the institute focuses its efforts on three goals:
+        student achievement and success, institutional excellence, and community service. These interrelated ends are facilitated
+        by the high quality faculty, students, programs and facilities.</string>
+    <string name="atglance2">University Institute of Engineering
+        and Technology (UIET) was established by Kurukshetra University in 2004 to be developed as a Centre of Excellence in
+        order to offer quality technical education and to undertake research in Engineering and Technology.Presently, the
+        institute is offering four B. Tech and eight M. Tech and three Ph.D. degree programs in the technically important disciplines.
+        In B.Tech Degree the institute is having course of:-</string>
+    <string name="atglance3"> The institute is also serving as a nodal agency for the
+        matters of academic importance like, development of scheme of examination, syllabus, academic plan and maintenance of standards
+        in affiliated Engineering colleges and is headed by:-</string>
+
+</resources>

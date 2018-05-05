@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsc.uiet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AcademicCalendar"
+            android:label="Academic Calendar" />
+        <activity
+            android:name=".About"
+            android:label="Developers" />
+        <activity
+            android:name=".contact"
+            android:label="Contact Us" />
+        <activity
+            android:name=".coarses"
+            android:label="Courses" />
+
+        <service android:name=".MyFirebaseInstaceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".atglance"
+            android:label="About Us"/>
+        <activity android:name=".gallery" />
+        <activity
+            android:name=".Web"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".details"
+            android:label="Gallery"/>
+        <activity
+            android:name=".Tnpcell"
+            android:resizeableActivity="false" />
+        <activity android:name=".TnpBacktrack" />
+        <activity
+            android:name=".departments"
+            android:label="Departments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".notices"
+            android:label="Anouncements"></activity>
+    </application>
+
+</manifest>

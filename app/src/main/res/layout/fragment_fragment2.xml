@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tpo" android:background="@color/verylightgray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="16sp" android:id="@+id/hed1" android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginRight="5sp" android:text="Training and Placement Cell"
+            android:layout_marginLeft="5sp" android:layout_marginTop="5sp"
+            android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"
+            android:textColor="#000000"/>
+        <WebView
+            android:id="@+id/mytxtview1" android:layout_below="@id/hed1"
+            android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp" android:layout_marginTop="5sp" android:layout_marginRight="5sp" />
+        <TextView
+            android:textSize="16sp" android:textStyle="bold" android:id="@+id/head"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Convenors" android:textColor="#000000" android:layout_marginTop="5sp" android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp" android:layout_below="@+id/mytxtview1"
+            android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"/>
+        <TextView
+            android:textSize="16sp" android:textStyle="bold"
+            android:id="@+id/txtvw2"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_width="match_parent" android:textColor="#000000" android:layout_marginTop="5sp"
+            android:layout_height="wrap_content" android:layout_marginLeft="5sp" android:layout_marginRight="5sp"
+            android:text="Mr. Nikhil Marriwala" android:layout_below="@+id/head"
+            android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"/>
+        <TextView
+            android:textSize="16sp" android:textStyle="bold"
+            android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp" android:textColor="#000000"
+            android:paddingLeft="15sp" android:paddingTop="15sp" android:paddingRight="15sp"
+            android:text="Mr. Sanjeev Ahuja" android:layout_below="@+id/txtvw2" />
+</RelativeLayout>
+

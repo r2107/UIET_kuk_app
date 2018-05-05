@@ -1,0 +1,19 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_science"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dsc.uiet.departments$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Applied Science deaprtment"
+        android:textColor="#000000"
+        android:textSize="17dp" android:paddingLeft="15sp"
+        android:paddingTop="15sp" android:paddingRight="15sp"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"/>
+
+
+</android.support.constraint.ConstraintLayout>

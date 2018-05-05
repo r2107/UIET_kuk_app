@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+
+        android:shadowColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="UIET Courses and other details" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+
+    <TextView
+        android:id="@+id/TEXT_STATUS_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_weight="1.0"
+        android:text="
+B. TECH COURSE :\n
+
+Eligibility: A candidate should be a pass in 10+2 examination from recognized board/university with physics and mathematics as compulsory subjects along with one of the following subjects: \n(a) Chemistry \n(b) Bio-Technology \n(c) Computer Science \n(d) Biology \nHave passed diploma course in engineering / technology of three years duration or more from State Board Technical Education, Haryana or its equivalent Diploma examination.
+
+For detail admission procedures, fee, no of intake please visit \nwww.tehadmissions.gov.in and \nwww.hstes.org.in\n
+
+Financial assistance for Innovative projects/ideas/proof of concepts/prototype./model development is available under TEQIP Project for project duration subject to availability of funds. \n\n
+B. TECH. LEET COURSE :\n
+
+Eligibility: Pass in 3 year or more diploma course in Engineering/ Technology with at least 45% marks in aggregate of all semesters. Diploma of 2 year after 10+2 with at least 45% marks in aggregate of all semesters. Pass in 3 year or more B. Sc. Degree with at least 45% marks in aggregate with Maths as a subject.\n
+ 1. Bio- Technology Engg. (BT)-60 + KM\n
+ 2. Computer Sc. Engg. (CSE)-120 + KM\n
+ 3. Electronics and Communication Egg. (ECE)-120+KM\n
+ 4. Mechanical Egg. (ME)-60+KM\n
+ M. TECH. COURSE :\nThe admission to M.Tech. Programms are done through 'GATE SCORE' as well as through “Institute Level Entrance Test”, conducted annually. Candidate is advised to visit the website for updates .\n
+The two year full time M.Tech programmes are available in following specializations.\n
+1. Bio- Technology-18\n
+2. Computer Engg.-18\n
+3. Electrical Engg.-18\n
+4. Electronics and Communication Egg.-18\n
+5. Material Sci. and Tech.-18\n
+6. Mechanical Engg. (Industrial and Production Engg.)-18\n
+7. Mechanical Engg. (Thermal Engg.)-18\n
+8. Software Engg.-18\n
+\nPG Scholarship/Assistantship of Rs12000.00 (amendable time to time by AICTE) per month is available to all GATE qualified admitted students in all the above disciplines.
+\nPh.D. COURSE :\nAdmissions to Ph.D. programmes are available in following departments.\n
+1. Electronics and Communication Engineering\n
+2. Computer Science and Engineering\n
+3. BioTechnology\n
+4. Mechanical Engineering\n
+5. Applied Science\n
+For detail admission procedures, eligibility, fee, number of intake please visit www.uietkuk.org, regularly.\n"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:autoLink="web"
+        android:textColorLink="#00abea"
+        android:textColor="#000000" />
+
+
+    </ScrollView>
+
+    </LinearLayout>

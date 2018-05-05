@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:text="UIET At Glance"
+        android:textSize="30dp"
+
+        android:id="@+id/abc"/>
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtvwglance1"
+            android:layout_height="wrap_content"
+            android:text="Mission:-" android:textSize="25dp"/>
+        <WebView
+            android:layout_width="match_parent" android:id="@+id/wbvwglance1"
+            android:layout_height="wrap_content" android:layout_below="@+id/txtvwglance1"/>
+        <TextView
+            android:layout_width="match_parent" android:id="@+id/txtvwglance2"
+            android:layout_height="wrap_content" android:textSize="20dp"
+            android:text="General Information:-"
+            android:layout_below="@id/wbvwglance1"/>
+            <WebView
+                android:layout_width="match_parent" android:id="@+id/wbvwglance2"
+                android:layout_height="wrap_content" android:layout_below="@id/txtvwglance2"/>
+            <TextView
+            android:id="@+id/txtvwglance3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp" android:layout_below="@+id/wbvwglance2"
+            android:layout_marginRight="4dp"
+            android:textSize="18dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:text=" 1.Electronics and Comm. Engineering,\n 2.Computer Science Engineering,\n 3.Mechanical Engineering,\n 4.Biotechnology Engg.\nIn M.Tech. :-\n 1.Electronics and Comm. Engineering,\n 2.Computer Engineering,\n 3.Software Engineering,\n 4.Biotechnology,\n 5.Thermal Engineering,\n 6.Industrial and Production Engineering,\n 7.Electrical Engineering,\n 8.Material Science and Technology.\nIn Ph.D.:-\n 1.Electronics and Comm. Engineering,\n 2.Computer Science engineering,\n 3.BioTechnology Engineering."
+            android:layout_weight="1.0"/>
+            <WebView
+                android:layout_width="match_parent" android:id="@+id/wbvwglance3" android:layout_below="@+id/txtvwglance3"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent" android:id="@+id/txtvwglance4"
+                android:layout_height="wrap_content" android:layout_below="@id/wbvwglance3" android:textSize="25dp"
+                android:text="Director:-\n(Prof.C.C. Tripathi)"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

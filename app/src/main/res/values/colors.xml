@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_blue_theme">#ff184284</color>
+    <color name="col_course">#ff3f5e20</color>
+    <color name="col_news">#ff7e5086</color>
+    <color name="col_notice">#ff395c6b</color>
+    <color name="col_research">#ff8c6643</color>
+    <color name="col_policy">#ff5c516c</color>
+    <color name="col_online_fee">#ffc6676d</color>
+    <color name="col_scholar1">#ff12aeaf</color>
+    <color name="col_exam">#ffd47113</color>
+    <color name="col_placement">#ff1c7baa</color>
+    <color name="col_addmission">#ff9f4b4b</color>
+    <color name="col_infra">#ff998010</color>
+    <color name="col_campus_life">#ff184284</color>
+    <color name="col_social_init">#ff000000</color>
+    <color name="col_our_inist">#ffff392f</color>
+    <color name="col_career">#ff30229b</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="verylightgray">#DEDFE0</color>
+    <color name="transparent">#00000000</color>
+</resources>

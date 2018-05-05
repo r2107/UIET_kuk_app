@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/content_tnp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.dsc.uiet.Tnpcell">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200.0sp"
+                android:src="@drawable/uietphoto"
+                android:scaleType="fitXY"
+                android:id="@+id/img1" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/ic_remove_white_24dp"
+                android:padding="15sp"
+                android:text="Why Uiet Kuk"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_below="@+id/img1"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent" />
+            <fragment
+                android:layout_width="match_parent"
+                android:id="@+id/fragmentplace1"
+                android:name="com.dsc.uiet.Fragment3"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn1"/>
+            <Button
+                android:id="@+id/btn2"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/ic_remove_white_24dp"
+                android:padding="15sp"
+                android:text="Training and Placement Cell"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_below="@+id/fragmentplace1"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent" />
+            <fragment
+                android:layout_width="match_parent"
+                android:id="@+id/fragmentplace2"
+                android:name="com.dsc.uiet.Fragment2"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn2"/>
+            <Button
+                android:id="@+id/btn3"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/ic_remove_white_24dp"
+                android:padding="15sp"
+                android:text="Contact Us"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_below="@+id/fragmentplace2"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent" />
+            <fragment
+                android:layout_width="match_parent"
+                android:id="@+id/fragmentplace3"
+                android:name="com.dsc.uiet.Fragment1"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn3"/>
+            <Button
+                android:id="@+id/btn4"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/ic_remove_white_24dp"
+                android:padding="15sp"
+                android:text="Follow Us"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_below="@+id/fragmentplace3"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent" />
+            <Button
+                android:id="@+id/btn5"
+                android:background="@drawable/button"
+                android:drawableRight="@drawable/ic_remove_white_24dp"
+                android:padding="15sp"
+                android:text="Placement Backtrack"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_below="@+id/btn4"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_width="match_parent" />
+
+            <!--<fragment
+                android:layout_width="match_parent"
+                android:id="@+id/fragmentplace2"
+                android:name="com.dsc.uiet.Fragment1"
+                android:layout_height="match_parent"
+                android:layout_below="@id/btn5"/>-->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

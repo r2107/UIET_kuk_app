@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/banner" android:layout_marginTop="55dp"
+        android:layout_width="fill_parent" android:layout_height="180.0dip"
+        android:src="@drawable/bannerkuk" android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+    <!--<ImageView
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp"
+        android:src="@drawable/kuklogo"
+        android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name" />-->
+    <LinearLayout
+        android:orientation="horizontal" android:id="@+id/contains"
+        android:background="@color/dark_blue_theme" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:weightSum="6.0" android:layout_below="@id/banner">
+        <RelativeLayout
+            android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+         <!--<LinearLayout
+                android:id="@+id/share_layout" android:visibility="gone"
+                android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0">
+                <ImageButton
+                    android:id="@+id/btn_fb" android:background="@android:color/transparent"
+                    android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip"
+                    android:scaleType="fitXY" android:layout_weight="1.0" android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/facebook" />
+                <ImageButton
+                    android:id="@+id/btn_twt" android:background="@android:color/transparent"
+                    android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip"
+                    android:scaleType="fitXY" android:layout_weight="1.0" android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/twitter" />
+                <ImageButton
+                    android:id="@+id/btn_insta" android:background="@android:color/transparent"
+                    android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip"
+                    android:scaleType="fitXY" android:layout_weight="1.0" android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/instagram" />
+                <ImageButton
+                    android:id="@+id/btn_gplus" android:background="@android:color/transparent"
+                    android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip"
+                    android:scaleType="fitXY" android:layout_weight="1.0" android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/googleplus" />
+                <ImageButton
+                    android:id="@+id/btn_linked" android:background="@android:color/transparent"
+                    android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_margin="5.0dip"
+                    android:scaleType="fitXY" android:layout_weight="1.0" android:contentDescription="@string/app_name"
+                    app:srcCompat="@drawable/linkdin" />
+            </LinearLayout>-->
+            <LinearLayout
+                android:id="@+id/search_layout" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:weightSum="4.0">
+                <!--<RelativeLayout android:layout_gravity="end" android:padding="5.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <Button
+                        android:textSize="12.0sp" android:textColor="@color/white"
+                        android:gravity="center" android:id="@+id/apply" android:background="@android:color/transparent"
+                        android:layout_width="fill_parent" android:layout_height="wrap_content"
+                        android:text="Anouncements" android:drawableLeft="@drawable/apply_now"
+                        android:drawableStart="@drawable/apply_now" />
+                </RelativeLayout>-->
+                <RelativeLayout
+                    android:layout_gravity="end" android:padding="5.0dip" android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <Button
+                        android:textSize="12.0sp" android:textColor="@color/white"
+                        android:gravity="center" android:id="@+id/anouncement"
+                        android:background="@android:color/transparent" android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:text="Anouncement"
+                        android:drawableLeft="@drawable/public_notice" android:drawableStart="@drawable/public_notice" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal" android:paddingTop="3.0dip"
+            android:paddingBottom="3.0dip" android:layout_width="0.0dip"
+            android:layout_height="wrap_content" android:weightSum="3.0" android:layout_weight="2.0">
+            <!--<ImageButton
+                android:id="@+id/share" android:background="@android:color/transparent"
+                android:padding="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content"
+                android:src="@drawable/be_with" android:layout_weight="1.0"
+                android:contentDescription="@string/app_name" />-->
+            <!--<LinearLayout
+                android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <RelativeLayout
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/noti" android:background="@android:color/transparent"
+                        android:padding="3.0dip" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:src="@drawable/noti"
+                        android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:textSize="12.0sp" android:textColor="#ffffffff"
+                        android:id="@+id/noti_cnt" android:background="@drawable/round_badge"
+                        android:padding="3.0dip" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:layout_marginRight="8.0dip"
+                        android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>-->
+            <ImageButton
+                android:id="@+id/contact_us" android:background="@android:color/transparent"
+                android:padding="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content"
+                android:src="@drawable/contact" android:layout_weight="1.0"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_below="@id/contains">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent" android:layout_height="120.0dip"
+                android:weightSum="3.0">
+                <RelativeLayout
+                    android:paddingRight="3.0dip" android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_courses" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/courses"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_course" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_course"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/courses_"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView android:id="@+id/img_gallery" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/about_us"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_news" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_about_us"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/gallery"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:background="@color/white" android:paddingTop="3.0dip"
+                android:layout_width="fill_parent" android:layout_height="120.0dip" android:weightSum="3.0">
+                <RelativeLayout
+                    android:background="@color/white" android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/img_notice" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/main_notice"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_notice" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_notice"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/notice"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/white" android:paddingLeft="3.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_research" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/research"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_research" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_research"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="DEPARTMENTS"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:background="@color/white" android:paddingTop="3.0dip"
+                android:layout_width="fill_parent" android:layout_height="120.0dip" android:weightSum="3.0">
+                <RelativeLayout
+                    android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_placement" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/placements"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_placement" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:id="@+id/tv_placement" android:background="@android:color/transparent"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/placement" android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/white" android:paddingLeft="3.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/img_online_fee" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/online_fee"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_online_fee" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_online_fee"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/online_fee"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:background="@color/white" android:paddingTop="3.0dip"
+                android:layout_width="fill_parent" android:layout_height="120.0dip" android:weightSum="3.0">
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/img_about_us" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/admission"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_addmission" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_addmission"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/about_us"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                   </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/white" android:paddingLeft="3.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_exam" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/exam"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_exam" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_exam"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/exam_res"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>
+            <!--<TableRow
+                android:background="@color/white" android:paddingTop="3.0dip"
+                android:layout_width="fill_parent" android:layout_height="120.0dip"
+                android:weightSum="3.0">
+                <RelativeLayout
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:layout_weight="2.0">
+                    <ImageView
+                        android:id="@+id/img_social_init" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/social_initiative"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_social_init" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:id="@+id/tv_social_init" android:background="@android:color/transparent"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/social_init" android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:background="@color/white" android:paddingLeft="3.0dip"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/img_our_insti" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:src="@drawable/our_institutions"
+                        android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+                    <View
+                        android:background="@color/col_our_inist" android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:alpha="0.8" />
+                    <TextView
+                        android:textSize="16.0sp" android:textColor="@color/white"
+                        android:gravity="center_horizontal" android:id="@+id/tv_our_insti"
+                        android:background="@android:color/transparent" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="@string/our_insti"
+                        android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </TableRow>-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+</FrameLayout>
